@@ -3,7 +3,7 @@
 Home hub is a website where you can store and organize the iot devices of your home. You can add a home to your account and organize your devices by room in the house.
 
 ## Usage
-
+*The file "HomeHubV1" is full project file*
 ### Sign Up
 
 1. Use the homepage navbar to navigate to the Login page where you can sign up and login to the website. 
