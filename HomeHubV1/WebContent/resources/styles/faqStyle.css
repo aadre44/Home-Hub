@@ -1,0 +1,48 @@
+.hide{
+    display: none;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: slategray;
+}
+.navbar{
+  width: 100% !important;
+  background: transparent !important;
+  font-size: 24px !important;
+  color: white;
+}
+.nav-item{
+  font-size: 24px !important;
+  color: white;
+}
+.nav-link{
+  color: white !important;
+}
+#mainContainer{
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.section{
+    background-color: steelblue;
+    width: 100% ;
+}
+.section h2{
+    padding-left: 8px;
+}
+.section:hover{
+    background-color: rgba(89, 163, 223, 0.719);
+}
+.section:hover h2{
+    transform: scale(1.05);
+}
+.sectionContent{
+    background-color: firebrick;
+    width: 100% ;
+}
+.sectionContent div p{
+    padding-left: 10px;
+}

@@ -1,0 +1,87 @@
+.hide{
+    display: none;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: slategray;
+}
+.navbar{
+  width: 100% !important;
+  background: transparent !important;
+  font-size: 24px !important;
+  color: white;
+}
+.nav-item{
+  font-size: 24px !important;
+  color: white;
+}
+.mainContainer{
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.section{
+}
+#profileHeader{
+background-color: white;
+border-radius: 5px;
+}
+#profileHeader img{
+    height:150px;
+    width:150px;
+    border-radius: 500px;
+    border: 150px solid turquoise;
+}
+#profileInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+/********** Gen info */
+#homes{
+    text-align: center;
+}
+#homesDisplay{
+    height: 200px;
+    max-width: 240px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+}
+#homesList{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+#homesList li:hover{
+    transform: scale(1.1);
+}
+#homesList li.selected{
+    background-color: teal;
+    transform: scale(1.1);
+}
+#homesList li.selected{
+    background-color: teal;
+}
+#deviceList{
+    list-style: none;
+}
+#deviceList li:hover{
+    transform: scale(1.1);
+}
+#deviceList.selected{
+    background-color: tomato;
+    transform: scale(1.1);
+}
+#detailsDisplay{
+    width: 540px;
+    background-color: slategray;
+}
